@@ -39,7 +39,10 @@ const themeConfig: MantineThemeOverride = {
     colors: {
         ...getCustomColors(COLORS),
     },
-    // fontFamily: 'Outfit, sans-serif',
+    fontFamily: 'Work Sans, sans-serif',
+    headings: {
+        fontFamily: 'Work Sans, sans-serif',
+    }
 }
 
 export default themeConfig;
