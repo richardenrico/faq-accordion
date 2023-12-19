@@ -24,7 +24,7 @@ const Home = () => {
 
     return (
         <>
-            <Seo title={'Hello World'} />
+            <Seo title={'FAQ Accordion | Front-end Mentor Challenge'} />
             <Container
                 fluid
                 p={0}
