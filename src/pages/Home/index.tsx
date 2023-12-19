@@ -27,6 +27,8 @@ const Home = () => {
             <Seo title={'FAQ Accordion | Front-end Mentor Challenge'} />
             <Container
                 fluid
+                bg={'light-pink'}
+                mih={'100vh'}
                 p={0}
                 style={{
                     position: 'relative',
