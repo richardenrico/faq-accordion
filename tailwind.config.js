@@ -5,7 +5,9 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}"
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: require('./src/shared/utils/colors').COLORS 
+    },
   },
   plugins: [],
 }
